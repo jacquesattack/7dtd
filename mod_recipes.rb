@@ -74,6 +74,9 @@ new_recipe("auger",1,{'name' => 'scrapMetal', 'count' => 1, 'grid' => '0, 0'})
 # chainsaw recipe
 new_recipe("chainsaw",1,{'name' => 'scrapMetal', 'count' => 1, 'grid' => '-1, 0'})
 
+# gascan recipe
+new_recipe("gasCan",1,{'name' => 'sand', 'count' => 1, 'grid' => '-1, 0'})
+
 ############## modded recipes
 modded_recipe = {}
 modded_recipe["crossbowBolt"] = ModifiedRecipe.new(true,[{'name' => 'scrapMetal', 'count' => 1, 'grid' => '1, -1'}]) # first argument is whether or not you want to blow away all the current ingredients
